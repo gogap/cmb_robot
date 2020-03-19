@@ -1,0 +1,13 @@
+{
+	username:""
+	login-password:""
+	usbkey-password:""
+	url:"http://127.0.0.1:8080"
+	listen-addr: "127.0.0.1:8080"
+	system-sn:""
+	channel-sn:""
+	amount: 0
+	status:"S"
+	date:"20170424"
+	cmb-version:"7.1.0.0"
+}

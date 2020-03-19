@@ -1,0 +1,25 @@
+{
+        level = "info"
+        formatter.name = "text"
+        formatter.options  {
+                            force-colors      = false
+                            disable-colors    = true
+                            disable-timestamp = false
+                            full-timestamp    = false
+                            timestamp-format  = "2006-01-02 15:04:05"
+                            disable-sorting   = false
+        }
+
+        hooks {
+                expander {
+                }
+
+                bearychat {
+                    robot-id = ""
+                    token    = ""
+                    levels   = ["debug", "error", "info", "warn", "panic"]
+                    channel  = "log-cmb-agent"
+                    async    = false
+                }
+        }
+}
